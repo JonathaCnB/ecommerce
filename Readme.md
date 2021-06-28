@@ -29,13 +29,13 @@ máquina local:
 - Instalar git (Windows, Linux e Mac) e depois:
 
 ```
-git clone https://github.com/luizomf/django-simple-ecommerce.git
+git clone https://github.com/JonathaCnB/ecommerce.git
 ```
 
 - Para **Windows**:
 
 ```
-cd django-simple-ecommerce
+cd ecommerce
 python -m venv venv
 venv\Scripts\activate.bat
 python -m pip install --upgrade pip setuptools wheel --user
@@ -46,8 +46,8 @@ python manage.py migrate
 - Para **Linux**:
 
 ```
-cd django-simple-ecommerce
-python3.7 -m venv venv
+cd ecommerce
+python3.9 -m venv venv
 . venv/bin/activate
 pip install django django-debug-toolbar django-crispy-forms pillow
 python manage.py migrate
@@ -56,7 +56,7 @@ python manage.py migrate
 - Para **Mac**
 
 ```
-cd django-simple-ecommerce
+cd ecommerce
 python -m venv venv
 . venv/bin/activate
 pip install django django-debug-toolbar django-crispy-forms pillow
